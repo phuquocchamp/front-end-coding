@@ -1,0 +1,1 @@
+document.getElementById("title").innerHTML = "Hoang Tan Phu Quoc Dep Zai";

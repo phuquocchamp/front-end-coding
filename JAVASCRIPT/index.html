@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+      <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style>
+                  h3,
+                  a,
+                  p {
+                        text-align: center;
+                        font-size: 35px;
+                  }
+            </style>
+            <title>Document</title>
+      </head>
+      <h3 id="title0">JavaScript Basic 1</h3>
+      <h3 id="title1">JavaScript Basic 2</h3>
+      <h3 id="title2">JavaScript Basic 3</h3>
+      <a id="demoImage">Image Demo</a>
+      <div class="nav">
+            <p>demo Js</p>
+      </div>
+
+      <body>
+            <script language="JavaScript">
+                  // 1. Finding HTML Elements.
+                  // get the element by ID
+                  console.log(document.getElementById("title0"));
+                  // get the elements by tag name;
+                  console.log(document.getElementsByTagName("h3"));
+                  // get the elements by tag name;
+                  console.log(document.getElementsByClassName("nav"));
+                  // 2. changing HTML Elements.
+
+                  const element = document.getElementById("title2");
+                  element.innerHTML = "Phu Quoc Dep Zai";
+
+                  document.getElementById("demoImage").href = "phuquocchamp.com ";
+            </script>
+      </body>
+
+</html>
