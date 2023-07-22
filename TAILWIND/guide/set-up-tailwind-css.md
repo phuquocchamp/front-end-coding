@@ -66,7 +66,14 @@ npx tailwindcss-cli build css/tailwind.css -o build/tailwind.css
 
 > **build/tailwind.css** sẽ được tạo để chứa các css uitilities của tailwindcss.
 
-7. Chạy Project.
+7. Import file tailwind.css vào trong file *html*
+
+```html
+<link rel="stylesheet" href="build/tailwind.css">
+
+```
+
+8. Chạy Project.
 
 ```json
 npm run dev
